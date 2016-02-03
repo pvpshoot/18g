@@ -32,28 +32,16 @@
     
 </style>
 <div class="container">
-    
     <h1 class="text-center m-b-lg" style="text-transform: uppercase;">send your card</h1>
     
-    <form action="https://store.payproglobal.com/checkout?x-custom-field1=1073819%3Aen&products%5B1%5D%5Bid%5D=2531https://store.payproglobal.com/checkout?x-custom-field1=1073819%3Aen&products%5B1%5D%5Bid%5D=2531" class="ordering__form ng-pristine ng-invalid ng-invalid-required ng-valid-maxlength ng-valid-email row row-center" id="ordering__form" accept-charset="UTF-8" method="POST" ordering-submit="" novalidate="">
-
-        <input type="hidden" name="alt_pricing" value="1">
-        <input type="hidden" name="_token" value="xtgCXVi1QW5Zy5ZFi12C395FNtMRTwZbD6xkNkHf">
-        <input type="hidden" name="business" class="ng-pristine ng-untouched ng-valid" value="1">
-        <input name="men" type="hidden" value="">
-        <input name="x-custom-field1" type="hidden" value="1073819:en">
-        <input name="page-template" type="hidden" value="1305">
-        <input name="currency" type="hidden" value="USDbilling-email:asdf@kjsad.com">
-        <input name="page-template" type="hidden" value="1305">
-        <input name="currency" type="hidden" value="USD">
-
+    <form class="ordering__form ng-pristine ng-invalid ng-invalid-required ng-valid-maxlength ng-valid-email row row-center" id="ordering__form" accept-charset="UTF-8" method="GET" >
         <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
             <div class="form-group">
                 <label class="ordering__label" for="orderText">Your message</label>
 
                 <div class="form-input">
 
-                    <input name="text[]" class="contact-input form-control input-lg ng-pristine ng-invalid ng-invalid-required ng-valid-maxlength ng-touched" type="text" maxlength="35" required="" ng-model="order.message" indicate-validity-on-parent="" placeholder="" control-label-on-focus="">
+                    <input  class="contact-input form-control input-lg ng-pristine ng-invalid ng-invalid-required ng-valid-maxlength ng-touched" type="text" maxlength="35" required="" ng-model="order.message" indicate-validity-on-parent="" placeholder="" control-label-on-focus="">
                 </div>
                 <!--/ .required-field -->
 
@@ -65,7 +53,7 @@
 
                 <div class="form-input">
 
-                    <input name="billing-email" class="contact-input form-control input-lg ng-pristine ng-untouched ng-valid-email ng-invalid ng-invalid-required" auto-fill-sync="" type="email" placeholder="" required="" indicate-validity-on-parent="" ng-model="order.email" control-label-on-focus="">
+                    <input  class="contact-input form-control input-lg ng-pristine ng-untouched ng-valid-email ng-invalid ng-invalid-required" auto-fill-sync="" type="email" placeholder="" required="" indicate-validity-on-parent="" ng-model="order.email" control-label-on-focus="">
                 </div>
                 <!--/ .required-field -->
 
@@ -74,7 +62,7 @@
                 <label class="ordering__label" for="orderDesc">Your comments</label>
 
                 <div class="form-input">
-                    <textarea name="business_comment[]" class="form-control input-lg ng-pristine ng-untouched ng-valid" rows="4" placeholder="" ng-model="order.businessComment" control-label-on-focus=""></textarea>
+                    <textarea  class="form-control input-lg ng-pristine ng-untouched ng-valid" rows="4" placeholder="" ng-model="order.businessComment" control-label-on-focus=""></textarea>
                 </div>
                 <!--/ .required-field -->
 
@@ -87,11 +75,10 @@
                         </span><!-- end ngIf: order.business -->
 <br>
                         <span class="ordering__form-submit">
-                            <button class="btn btn-primary cta cta-default cta-order all-caps" >Order your own card</button>
+                            <a href="https://store.payproglobal.com/checkout?x-custom-field1=1073819%3Aen&products%5B1%5D%5Bid%5D=2531" class="btn btn-primary cta cta-default cta-order all-caps" >Order your own card</a>
                         </span>
             </p>
         </div>
-        <input type="hidden" name="ga_cid" value="424014665.1448974429"></form>
 </div>
 
 </body>
