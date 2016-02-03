@@ -35,15 +35,17 @@
     
     <h1 class="text-center m-b-lg" style="text-transform: uppercase;">send your card</h1>
     
-    <form action="https://tittygram.com/order/action/create" class="ordering__form ng-pristine ng-invalid ng-invalid-required ng-valid-maxlength ng-valid-email row row-center" id="ordering__form" accept-charset="UTF-8" method="POST" ordering-submit="" novalidate="">
+    <form action="https://store.payproglobal.com/checkout?x-custom-field1=1073819%3Aen&products%5B1%5D%5Bid%5D=2531https://store.payproglobal.com/checkout?x-custom-field1=1073819%3Aen&products%5B1%5D%5Bid%5D=2531" class="ordering__form ng-pristine ng-invalid ng-invalid-required ng-valid-maxlength ng-valid-email row row-center" id="ordering__form" accept-charset="UTF-8" method="POST" ordering-submit="" novalidate="">
 
         <input type="hidden" name="alt_pricing" value="1">
         <input type="hidden" name="_token" value="xtgCXVi1QW5Zy5ZFi12C395FNtMRTwZbD6xkNkHf">
         <input type="hidden" name="business" class="ng-pristine ng-untouched ng-valid" value="1">
         <input name="men" type="hidden" value="">
-
-        
-
+        <input name="x-custom-field1" type="hidden" value="1073819:en">
+        <input name="page-template" type="hidden" value="1305">
+        <input name="currency" type="hidden" value="USDbilling-email:asdf@kjsad.com">
+        <input name="page-template" type="hidden" value="1305">
+        <input name="currency" type="hidden" value="USD">
 
         <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
             <div class="form-group">
@@ -63,7 +65,7 @@
 
                 <div class="form-input">
 
-                    <input name="email" class="contact-input form-control input-lg ng-pristine ng-untouched ng-valid-email ng-invalid ng-invalid-required" auto-fill-sync="" type="email" placeholder="" required="" indicate-validity-on-parent="" ng-model="order.email" control-label-on-focus="">
+                    <input name="billing-email" class="contact-input form-control input-lg ng-pristine ng-untouched ng-valid-email ng-invalid ng-invalid-required" auto-fill-sync="" type="email" placeholder="" required="" indicate-validity-on-parent="" ng-model="order.email" control-label-on-focus="">
                 </div>
                 <!--/ .required-field -->
 
